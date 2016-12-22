@@ -49,8 +49,8 @@ public class SETS {
                         for (int i = Integer.parseInt(p[0]); i < Integer.parseInt(p[2]); i+=Integer.parseInt(p[1]))
                         {
                             //String ch =reader.readLine();
-                            if (v.get(s[1]).contains(i)) continue;
-                            else v.get(s[1]).add(i);
+                            if (v.get(s[1]).contains(String.valueOf(i))) continue;
+                            else v.get(s[1]).add(String.valueOf(i));
                         }
                         System.out.println("Elements added");}
                     else {
@@ -222,8 +222,8 @@ public class SETS {
                             for (int i = Integer.parseInt(p[0]); i < Integer.parseInt(p[2]); i+=Integer.parseInt(p[1]))
                             {
                                 //String ch =reader.readLine();
-                                if (v.get(s1[1]).contains(i)) continue;
-                                else v.get(s1[1]).add(i);
+                                if (v.get(s1[1]).contains(String.valueOf(i))) continue;
+                                else v.get(s1[1]).add(String.valueOf(i));
                             }
                             System.out.println("Elements added");}
                         else {
